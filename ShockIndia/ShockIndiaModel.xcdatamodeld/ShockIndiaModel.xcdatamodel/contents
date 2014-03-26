@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CampaignManagedObject" representedClassName="CampaignManagedObject" syncable="YES">
+        <attribute name="campaign_cause" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_host" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="campaign_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_photos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_strength" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_venue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="campaign_video" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DiscussionManagedObject" representedClassName="DiscussionManagedObject" syncable="YES">
+        <attribute name="discussion_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discussion_created_on" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discussion_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discussion_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discussion_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="discussion_topic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discussion_users" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FactsManagedObject" representedClassName="FactsManagedObject" syncable="YES">
+        <attribute name="fact_comments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="fact_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_pics" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_posted_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_posted_on" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_shares" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_shocks" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fact_video_link" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="LeadersManagedObject" representedClassName="LeadersManagedObject" syncable="YES">
+        <attribute name="leaders_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leaders_fb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leaders_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leaders_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="leaders_images" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leaders_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leaders_twitter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="leaders_website" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="OptionsManagedObject" representedClassName="OptionsManagedObject" syncable="YES">
+        <attribute name="is_answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="option_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="option_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="option_photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="PartiesManagedObject" representedClassName="PartiesManagedObject" syncable="YES">
+        <attribute name="parties_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parties_fb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parties_icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parties_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="parties_images" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parties_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parties_short_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parties_twitter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parties_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parties_website" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PhotosManagedObject" representedClassName="PhotosManagedObject" syncable="YES">
+        <attribute name="photo_comments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="photo_link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_posted_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_shares" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_shocks" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo_time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PostManagedObject" representedClassName="PostManagedObject" syncable="YES">
+        <attribute name="discussion_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="post_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="post_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="post_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="post_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="post_on" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="QuestionsManagedObject" representedClassName="QuestionsManagedObject" syncable="YES">
+        <attribute name="question_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="question_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="question_photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quiz_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="QuizManagedObject" representedClassName="QuizManagedObject" syncable="YES">
+        <attribute name="quiz_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="quiz_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quiz_no_of_questions" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="quiz_photos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quiz_posted_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quiz_posted_on" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StoryManagedObject" representedClassName="StoryManagedObject" syncable="YES">
+        <attribute name="story_comments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="story_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story_pic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story_posted_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story_posted_on" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story_shares" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story_shocks" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="story_video_link" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserManagedObject" representedClassName="UserManagedObject" syncable="YES">
+        <attribute name="user_address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_fb_link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_political_view" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_twitter_link" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VideosManagedObject" representedClassName="VideosManagedObject" syncable="YES">
+        <attribute name="video_comments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_id" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="video_link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_posted_by" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_shares" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_shocks" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_thumbnail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="video_time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CampaignManagedObject" positionX="160" positionY="192" width="128" height="210"/>
+        <element name="DiscussionManagedObject" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="FactsManagedObject" positionX="160" positionY="192" width="128" height="195"/>
+        <element name="LeadersManagedObject" positionX="160" positionY="192" width="128" height="165"/>
+        <element name="OptionsManagedObject" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="PartiesManagedObject" positionX="160" positionY="192" width="128" height="195"/>
+        <element name="PhotosManagedObject" positionX="160" positionY="192" width="128" height="195"/>
+        <element name="PostManagedObject" positionX="160" positionY="192" width="128" height="135"/>
+        <element name="QuestionsManagedObject" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="QuizManagedObject" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="StoryManagedObject" positionX="0" positionY="0" width="128" height="178"/>
+        <element name="UserManagedObject" positionX="-162" positionY="18" width="128" height="225"/>
+        <element name="VideosManagedObject" positionX="160" positionY="192" width="128" height="210"/>
+    </elements>
+</model>
